@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 class='Title' onclick="reset()"> Hyoseo</h1>
+
+    <dir class="Part">
+
+        <dir class="Object" onmouseenter="document.getElementById('HelloWorld').style.display= 'block';" onmouseleave="document.getElementById('HelloWorld').style.display= 'none';">
+            <h3 class="Work" id='HelloWorld' style="color: green;">Hello World</h3>
+        </dir>
+        <dir class="Object" onmouseenter="document.getElementById('HelloWorld1').style.display= 'block';" onmouseleave="document.getElementById('HelloWorld1').style.display= 'none';">
+            <h3 class="Work" id='HelloWorld1' style="color: red;">Hello World</h3>
+        </dir>
+        <dir class="Object" onmouseenter="document.getElementById('HelloWorld2').style.display= 'block';" onmouseleave="document.getElementById('HelloWorld2').style.display= 'none';">
+            <h3 class="Work" id='HelloWorld2' style="color: yellow;">Hello World</h3>
+        </dir>
+        <dir class="Object" onmouseenter="document.getElementById('HelloWorld3').style.display= 'block';" onmouseleave="document.getElementById('HelloWorld3').style.display= 'none';">
+            <h3 class="Work" id='HelloWorld3' style="color: purple;">Hello World</h3>
+        </dir>
+    </dir>
+    <script>
+        function reset() {
+            document.getElementsByClassName('Work').style.display = 'None'
+        }
+
+        function show(id, to) {
+            document.getElementById(id).style.display = to
+        }
+    </script>
+</body>
+
+</html>

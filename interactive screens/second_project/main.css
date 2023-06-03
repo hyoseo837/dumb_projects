@@ -1,0 +1,19 @@
+p {
+    font-family: Arial;
+    font-size: large;
+    font-style: normal;
+    color: rgb(5, 80, 15);
+    background-color: rgb(238, 236, 130);
+    padding: 10px;
+    padding-inline: 10px;
+    border: 20px red;
+    border-color: green;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}

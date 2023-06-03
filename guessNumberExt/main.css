@@ -1,0 +1,27 @@
+button {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    background-color: (239,239,239);
+}
+
+body {
+    min-width: 210px;
+    background-color: #303030;
+}
+#demo{
+    color:white
+}
+
+.setting {
+    width: 50px;
+}
+
+#up{
+    background-color: tomato;
+}
+#down{
+    background-color: skyblue;
+}
